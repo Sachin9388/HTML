@@ -1,0 +1,98 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\b\f0\fs32\lang9 1. What is JavaScript?\par
+
+\pard\sa200\sl276\slmult1\qj\b0\i\fs24 JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else\b\i0\fs32 .\par
+\par
+2. What is the use of isNaN function? \par
+\b0\i\fs24 The JavaScript isNaN() Function is used to check whether a given value is an illegal number or not. It returns true if the value is a NaN else returns false. It is different from the Number.isNaN() Method.\par
+\par
+\b\i0\fs32 3.What is negative Infinity? \par
+\b0\i\fs24 The negative infinity in JavaScript is a constant value that is used to represent a value that is the lowest available. This means that no other number is lesser than this value. It can be generated using a self-made function or by an arithmetic operation. \par
+Negative infinity is different from mathematical infinity.\par
+Negative infinity results in -0(different from 0 ) when divided by any other number.\par
+When divided by itself or positive infinity, negative infinity return NaN\par
+Negative infinity, when divided by any positive number (apart from positive infinity) is negative infinity.\par
+Negative infinity, divided by any negative number (apart from negative infinity) is positive infinity.\par
+If we multiply negative infinity with NaN, we will get NaN as a result.\par
+The product of 0 and negative infinity is Nan.\par
+The product of two negative infinities is always a positive infinity.\par
+The product of both positive and negative infinity is always negative infinity.\par
+\par
+\b\i0\fs32 4. Which company developed JavaScript?\par
+\b0\i\fs24 This post presents a brief history of how Brendan Eich created JavaScript and what influenced its design decisions. A company called Netscape was founded in 1994 and created one of the first web browsers. They recruited Eich in 1995, because they wanted him to create a programming language for that web browser.\par
+\par
+\b\i0\fs32 5. What are undeclared and undefined variables?\par
+\b0\i\fs24 Undefined: It occurs when a variable has been declared but has not been assigned any value. Undefined is not a keyword. \par
+Undeclared: It occurs when we try to access any variable that is not initialized or declared earlier using the var or const keyword. If we use \lquote typeof\rquote  operator to get the value of an undeclared variable, we will face the runtime error with the return value as \ldblquote undefined\rdblquote . The scope of the undeclared variables is always global.\par
+\par
+\b\i0\fs32 6. Write the code for adding new elements dynamically?\par
+\b0\i\fs24 Javascript is a very important language when it comes to learning how the browser works. Often there are times we would like to add dynamic elements/content to our web pages. This post deals with all of that.\par
+Creation of new element: New elements can be created in JS by using the createElement() method.  \par
+Syntax:\par
+document.createElement("<tagName>");  \par
+// Where <tagName> can be any HTML \par
+// tagName like div, ul, button, etc.\par
+// newDiv element has been created\par
+For Eg: let newDiv = document.createElement("div");\par
+\par
+\b\i0\fs32 7. What is the difference between ViewState and SessionState? \par
+\b0\i\fs24 Session State contains information that is pertaining to a specific session (by a particular client/browser/machine) with the server. It's a way to track what the user is doing on the site.. across multiple pages...amid the statelessness of the Web. e.g. the contents of a particular user's shopping cart is session data. Cookies can be used for session state.\par
+View State on the other hand is information specific to particular web page. It is stored in a hidden field so that it isn't visible to the user. It is used to maintain the user's illusion that the page remembers what he did on it the last time - dont give him a clean page every time he posts back.\par
+\par
+\b\i0\fs32 8. What is === operator?\par
+\b0\i\fs24 The strict equality (===) operator checks whether its two operands are equal, returning a Boolean result. Unlike the equality operator, the strict equality operator always considers operands of different types to be different.\par
+If the operands are of different types, return false.\par
+If both operands are objects, return true only if they refer to the same object.\par
+If both operands are null or both operands are undefined, return true.\par
+If either operand is NaN, return false.\par
+\par
+\b\i0\fs32 9. How can the style/class of an element be changed? \par
+\b0\i\fs24 We can change, add or remove any CSS property from an HTML element on the occurrence of any event with the help of JavaScript. There are two approaches that allow us to achieve this task.\par
+The classList Property: The classList is a read-only property that returns the CSS class names of an element as a DOMTokenList object. The add() method: It adds one or more classes.The remove() method: It removes one or more classes.\par
+The toggle() method: If the class does not exist it adds it and returns true. It removes the class and returns false. The second boolean argument forces the class to be added or removed.\par
+The className Property: This property is used to set the current class of the element to the specified class.\par
+\par
+\b\i0\fs32 10. How to read and write a file using JavaScript? \par
+\b0\i\fs24 The fs.readFile() and rs.writeFile() methods are used to read and write of a file using javascript. The file is read using the fs.readFile() function, which is an inbuilt method. This technique reads the full file into memory and stores it in a buffer. \par
+\par
+\b\i0\fs32 11. What are all the looping structures in JavaScript?\par
+\b0\i\fs24 The JavaScript loops are used to iterate the piece of code using for, while, do while or for-in loops. It makes the code compact. It is mostly used in array.\par
+There are four types of loops in JavaScript.\par
+for loop\par
+while loop\par
+do-while loop\par
+for-in loop\par
+\par
+\b\i0\fs32 12. How can you convert the string of any base to an integer in JavaScript? \par
+\b0\i\fs24  In JavaScript parseInt() function (or a method) is used to convert the passed-in string parameter or value to an integer value itself. This function returns an integer of the base which is specified in the second argument of the parseInt() function. JavaScript parseInt() function returns Nan( not a number) when the string doesn\rquote t contain a number. \par
+\par
+\b\i0\fs32 13.What is the function of the delete operator? \par
+\b0\i\fs24 The delete operator in JavaScript is used to delete an object\rquote s property.\par
+If it is used to delete an object property that already exists, it returns true and removes the property from the object. However, deleting an object property that doesn\rquote t exist will not affect the object, but will still return true.\par
+The only time false will be returned is when the delete operator is used to delete a variable or a function.\par
+\par
+\b\i0\fs32 14. What are all the types of Pop up boxes available in JavaScript? \par
+\b0\i\fs24 In Javascript, popup boxes are used to display the message or notification to the user. There are three types of pop-up boxes in JavaScript namely Alert Box, Confirm Box and Prompt Box.\par
+\par
+\b\i0\fs32 15. What is the use of Void (0)? \par
+\b0\i\fs24\ldblquote javascript: void(0)\rdblquote  is similar to void.\par
+javascript: void(0) means return undefined as a primitive value. We use this to prevent any negative effects on a webpage when we insert some expression.\par
+For example, in the case of URL hyperlinks. Hyperlinks open by reloading the page when the user clicks on the link. When you need to run some other code in such cases, you can use javascript: void(0).\par
+Let\rquote s split javascript: void(0) with a colon. We get javascript and void(0).\par
+javascript: is a pseudo URL. The JavaScript engine interprets this as some code after that colon and executes that code.\par
+\par
+\b\i0\fs32 16. How can a page be forced to load another page in JavaScript? \par
+\b0\i\fs24 We can use window.location property inside the script tag to forcefully load another page in Javascript. It is a reference to a Location object that is it represents the current location of the document. We can change the URL of a window by accessing it.\par
+\par
+\b\i0\fs32 17. What are the disadvantages of using innerHTML in JavaScript?\par
+\b0\i\fs24 The innerHTML property is a part of the Document Object Model (DOM) that is used to set or return the HTML content of an element. Where the return value represents the text content of the HTML element. It allows JavaScript code to manipulate a website being displayed. More specifically, it sets or returns the HTML content (the inner HTML) of an element. The innerHTML property is widely used to modify the contents of a webpage as it is the easiest way of modifying DOM. But there are some disadvantages to using innerHTML in JavaScript.\par
+Disadvantages of using innerHTML property in JavaScript:\par
+The use of innerHTML very slow: The process of using innerHTML is much slower as its contents as slowly built, also already parsed contents and elements are also re-parsed which takes time.\par
+Preserves event handlers attached to any DOM elements: The event handlers do not get attached to the new elements created by setting innerHTML automatically. To do so one has to keep track of the event handlers and attach it to new elements manually. This may cause a memory leak on some browsers.\par
+Content is replaced everywhere: Either you add, append, delete or modify contents on a webpage using innerHTML, all contents is replaced, also all the DOM nodes inside that element are reparsed and recreated.\par
+Appending to innerHTML is not supported: Usually, += is used for appending in JavaScript. But on appending to an Html tag using innerHTML, the whole tag is re-parsed.\b\i0\fs32\par
+\b0\i\fs24\par
+\par
+}
+ 
